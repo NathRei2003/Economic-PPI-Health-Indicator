@@ -13,4 +13,4 @@ University of Florida - Rinker School
 ### Example Input and Output
 | Input | Output |
 |----------------------------|---------------------------|
-|  | ![Output](output_example.png) |
+|![Input](ppi-comrlp.xlsx)|![Output](aggregated_ppi_analysis.xlsx)|
