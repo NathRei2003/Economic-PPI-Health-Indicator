@@ -69,12 +69,12 @@ python ppi_relative_importance_analysis.py \
 
 After running, you will get an output file that will contain:
 
-Commodity – text description (from the Index column in the source file)
-RI_2023 – relative importance weight for December 2023
-RI_2024 – relative importance weight for December 2024
-Pct_Change – percent change in relative importance (2023 → 2024)
-Change_Category – one of Stable, Small change, Moderate change, Large change, Unknown
-NLG_Interpretation – a short natural-language explanation based on the change
+- Commodity – text description (from the Index column in the source file)
+- RI_2023 – relative importance weight for December 2023
+- RI_2024 – relative importance weight for December 2024
+- Pct_Change – percent change in relative importance (2023 → 2024)
+- Change_Category – one of Stable, Small change, Moderate change, Large change, Unknown
+- NLG_Interpretation – a short natural-language explanation based on the change
 
 ## Notes and Limitations
 
@@ -84,5 +84,5 @@ occur even for small absolute movements, especially when the 2023 weight
 is very small.
 
 Extremely large changes (e.g. >100%) should be interpreted as shifts
-in PPI basket weighting, not literally as a doubling of production or
+in PPI weighting, not literally as a doubling of production or
 demand.
